@@ -1,5 +1,7 @@
 # NYP Technopreneurship Club
 
+This repository contains the central hub for activities happening in the club.
+
 ## Contributing
 
 ### Prerequisities

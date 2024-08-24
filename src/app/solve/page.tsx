@@ -12,9 +12,12 @@ export default function Page() {
       </div>
       <div className={"w-full h-dvh absolute z-20 overflow-y-auto [&>section]:min-h-full"}>
         <section className={"px-4 py-20 flex flex-col items-center justify-center"}>
-          <div className={"font-bold flex max-sm:flex-col items-center gap-2"}>
-            <img className={"size-8 max-sm:size-12"} src={"https://nyptech.vercel.app/assets?id=logo"} alt={"Logo"} />
-            <span className={"text-lg text-white"}>NYP Technopreneurship Club Presents</span>
+          <div className={"flex flex-col items-center text-center"}>
+            <div className={"flex items-center gap-2"}>
+              <img className={"size-6"} src={"https://nyptech.vercel.app/assets?id=logo"} alt={"Logo"} />
+              <span className={"font-bold text-lg max-sm:text-sm text-white"}>Technopreneurship Club</span>
+            </div>
+            <span className={"text-sm max-sm:text-xs text-white"}>Presents</span>
           </div>
           <div className={"flex-1 flex items-center justify-center"}>
             <span
@@ -29,11 +32,11 @@ export default function Page() {
           <CountdownDisplay
             className={"mb-16 text-white"}
             data={{
-              targetDate: new Date("2024-09-22T00:00:00Z"),
+              targetDate: new Date("2024-09-09T00:00:00Z"),
             }}
           />
           <div>
-            <Link className={"btn btn-primary"} href={"#"}>
+            <Link className={"btn btn-info"} href={"#"}>
               Signup now!
             </Link>
           </div>
