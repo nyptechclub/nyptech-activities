@@ -1,5 +1,6 @@
 "use client";
 
+import clsx from "clsx";
 import { useEffect, useState } from "react";
 
 const calculateTimeLeft = (date: Date) => {
@@ -17,6 +18,7 @@ const calculateTimeLeft = (date: Date) => {
 };
 
 export default function CountdownDisplay(props: {
+  className?: string;
   data: {
     targetDate: Date;
   };
@@ -40,20 +42,21 @@ export default function CountdownDisplay(props: {
   Object.keys(timeLeft).forEach((interval) => {
     timerComponents.push(
       <span key={interval} suppressHydrationWarning>
-        {timeLeft[interval as keyof typeof timeLeft]} {interval}{" "}
+        <span>{timeLeft[interval as keyof typeof timeLeft]} </span>
+        <span>{interval}</span>
       </span>
     );
   });
 
   return (
-    <div className="flex items-center justify-center text-white">
-      <div className="text-center">
+    <div className={clsx("flex items-center justify-center", props.className)}>
+      <div className={"text-center"}>
         {isLaunched ? (
-          <h1 className="text-6xl font-bold animate-bounce">Launched!</h1>
+          <h1 className={"text-6xl font-bold animate-bounce"}>Launched!</h1>
         ) : (
-          <div className="text-4xl font-semibold space-y-4">
-            <h1 className="text-5xl font-bold">Launching In</h1>
-            <div className="space-x-6">{timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}</div>
+          <div className={"text-2xl space-y-4"}>
+            <h1 className={"text-3xl font-bold"}>Launching in...</h1>
+            <div className={"space-x-6"}>{timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}</div>
           </div>
         )}
       </div>
