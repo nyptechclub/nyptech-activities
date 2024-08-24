@@ -54,8 +54,8 @@ export default function CountdownDisplay(props: {
         {isLaunched ? (
           <h1 className={"text-6xl font-bold animate-bounce"}>Launched!</h1>
         ) : (
-          <div className={"text-2xl space-y-4"}>
-            <h1 className={"text-3xl font-bold"}>Launching in...</h1>
+          <div className={"text-2xl max-sm:text-lg space-y-4"}>
+            <h1 className={"text-3xl max-sm:text-xl font-bold"}>Launching in...</h1>
             <div className={"space-x-6"}>{timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}</div>
           </div>
         )}

@@ -1,8 +1,6 @@
+import { inter } from "@/lib/fonts";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const font = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "NYP Technopreneurship Club",
@@ -17,7 +15,7 @@ export default function Layout(props: { children: React.ReactNode }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className={font.className}>{props.children}</body>
+      <body className={inter.className}>{props.children}</body>
     </html>
   );
 }

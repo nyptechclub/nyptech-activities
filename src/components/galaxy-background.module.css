@@ -19,8 +19,8 @@
   top: 0;
   left: 0;
   z-index: -3;
-  /* background: url(https://i.ibb.co/87GbbFP/2799006.jpg) no-repeat; */
-  background: url(https://cdn.wallpapersafari.com/76/0/H2q3sM.jpg) no-repeat;
+  /* background: url("https://i.ibb.co/87GbbFP/2799006.jpg") no-repeat; */
+  background: url("/assets/galaxy.jpg") no-repeat;
   background-size: cover;
 }
 
