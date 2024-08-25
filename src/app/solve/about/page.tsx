@@ -13,7 +13,7 @@ export default function Page() {
         </div>
       </nav>
       <main>
-        <div className={"mx-auto py-8 container space-y-2"}>
+        <div className={"mx-auto py-8 container space-y-4"}>
           <h1 className={clsx("mb-4 text-center text-4xl", unbounded.className)}>NYP Solve</h1>
           <p>
             NYP Solve is a 6-Week Incubator Program designed for aspiring student entrepreneurs. The purpose of this
@@ -31,6 +31,13 @@ export default function Page() {
             </ul>
             <p className={"mt-1 italic text-xs"}>Registration is to be done via Student Life Academy Only.</p>
           </div>
+          <p className={"mt-4 alert alert-info"}>
+            <i className={"fa-solid fa-info-circle"}/>
+            <span>
+            You do not need to commit for the whole 6-week. Every week there will be a progress check and workshops for
+            you to attend.
+            </span>
+          </p>
         </div>
       </main>
     </div>

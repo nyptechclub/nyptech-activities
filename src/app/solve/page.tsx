@@ -40,7 +40,7 @@ export default function Page() {
               <ul className={"menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow"}>
                 <li>
                   <Link href={"/solve/about"}>
-                    <i className={"fa-solid fa-info"} />
+                    <i className={"fa-solid fa-info-circle"} />
                     About NYP Solve
                   </Link>
                 </li>
