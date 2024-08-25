@@ -11,7 +11,7 @@ export default function Page() {
         <GalaxyBackground className={"size-full"} />
       </div>
       <div className={"w-full h-dvh absolute z-20 overflow-y-auto [&>section]:min-h-full"}>
-        <section className={"px-4 py-20 flex flex-col items-center justify-center"}>
+        <section className={"px-4 py-20 max-sm:py-12 flex flex-col items-center justify-center"}>
           <div className={"flex flex-col items-center gap-1 text-center text-white"}>
             <div className={"flex items-center gap-2"}>
               <img className={"size-6"} src={"https://nyptech.vercel.app/assets?id=logo"} alt={"Logo"} />
@@ -26,7 +26,7 @@ export default function Page() {
             </span>
           </div>
           <CountdownDisplay
-            className={"mb-16 text-white"}
+            className={"mb-16 max-sm:mb-8 text-white"}
             data={{
               targetDate: new Date("2024-09-09T00:00:00Z"),
             }}

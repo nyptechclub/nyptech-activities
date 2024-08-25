@@ -13,9 +13,9 @@ export default function Page() {
         </div>
       </nav>
       <main>
-        <div className={"mx-auto py-8 container space-y-4"}>
+        <div className={"mx-auto px-6 py-8 container space-y-4"}>
           <h1 className={clsx("mb-4 text-center text-4xl", unbounded.className)}>NYP Solve</h1>
-          <p>
+          <p className={"max-md:text-center"}>
             NYP Solve is a 6-Week Incubator Program designed for aspiring student entrepreneurs. The purpose of this
             event is to nurture students with great potential and turn them into success stories. Throughout the 6
             weeks, the Technopreneurship Club will guide students in building out their ideas.
