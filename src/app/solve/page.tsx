@@ -15,15 +15,13 @@ export default function Page() {
           <div className={"flex flex-col items-center gap-1 text-center text-white"}>
             <div className={"flex items-center gap-2"}>
               <img className={"size-6"} src={"https://nyptech.vercel.app/assets?id=logo"} alt={"Logo"} />
-              <span className={"font-bold text-lg max-sm:text-sm"}>Technopreneurship Club</span>
+              <span className={"font-bold text-lg max-sm:text-sm"}>NYP Technopreneurship Club</span>
             </div>
-            <span className={"text-sm max-sm:text-xs text-gray-200"}>Presents...</span>
+            <span className={"italic text-sm max-sm:text-xs text-gray-300"}>Presents!</span>
           </div>
           <div className={"flex-1 flex flex-col items-center justify-center text-center text-white"}>
-            <span className={clsx("uppercase font-bold text-8xl max-sm:text-6xl", unbounded.className)}>
-              NYP Solve
-            </span>
-            <span className={clsx("mt-6 italic text-lg max-sm:text-sm text-gray-200", gluten.className)}>
+            <span className={clsx("uppercase font-bold text-8xl max-sm:text-6xl", unbounded.className)}>NYP Solve</span>
+            <span className={clsx("mt-6 italic text-lg max-sm:text-sm text-gray-300", gluten.className)}>
               Dream Big. Solve Bigger.
             </span>
           </div>
@@ -33,10 +31,31 @@ export default function Page() {
               targetDate: new Date("2024-09-09T00:00:00Z"),
             }}
           />
-          <div>
-            <Link className={"btn btn-info"} href={"#"}>
+          <div className={"space-x-4"}>
+            <Link className={"btn btn-sm btn-primary"} href={"#"}>
               Sign up now!
             </Link>
+            <details className={"dropdown dropdown-top"}>
+              <summary className={"btn btn-sm btn-outline"}>Learn more!</summary>
+              <ul className={"menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow"}>
+                <li>
+                  <Link href={"/solve/about"}>
+                    <i className={"fa-solid fa-info"} />
+                    About NYP Solve
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={
+                      "https://docs.google.com/document/d/1pFx_-gdNnAXBNK2OpTUD1-JfFj5zl8JzdlS10FQRAb0/edit?usp=sharing"
+                    }
+                  >
+                    <i className={"fa-solid fa-calendar"} />
+                    6-Week Rundown
+                  </Link>
+                </li>
+              </ul>
+            </details>
           </div>
         </section>
         {/* <section className={"flex items-center justify-center"}>Another section.</section> */}
