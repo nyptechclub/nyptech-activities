@@ -22,7 +22,7 @@ export default function Page() {
           <div className={"flex-1 flex flex-col items-center justify-center text-center text-white"}>
             <span className={clsx("uppercase font-bold text-8xl max-sm:text-6xl", unbounded.className)}>NYP Solve</span>
             <span className={clsx("mt-6 italic text-lg max-sm:text-sm text-gray-300", gluten.className)}>
-              Dream Big. Solve Bigger.
+            Turn your ideas into a startup in 6 weeks. You in?
             </span>
           </div>
           <CountdownDisplay
