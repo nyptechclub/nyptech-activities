@@ -19,16 +19,14 @@ const calculateTimeLeft = (date: Date) => {
 
 export default function CountdownDisplay(props: {
   className?: string;
-  data: {
-    targetDate: Date;
-  };
+  targetDate: Date;
 }) {
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(props.data.targetDate));
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft(props.targetDate));
   const [isLaunched, setIsLaunched] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      const newTimeLeft = calculateTimeLeft(props.data.targetDate);
+      const newTimeLeft = calculateTimeLeft(props.targetDate);
       setTimeLeft(newTimeLeft);
       if (Object.keys(newTimeLeft).length === 0) {
         setIsLaunched(true);
@@ -52,11 +50,11 @@ export default function CountdownDisplay(props: {
     <div className={clsx("flex items-center justify-center", props.className)}>
       <div className={"text-center"}>
         {isLaunched ? (
-          <h1 className={"text-6xl font-bold animate-bounce"}>Launched!</h1>
+          <h1 className={"font-bold text-6xl animate-bounce"}>Launched!</h1>
         ) : (
-          <div className={"text-2xl max-sm:text-sm space-y-4"}>
-            <h1 className={"text-3xl max-sm:text-xl font-bold"}>Launching in...</h1>
-            <div className={"space-x-4 max-sm:space-x-2"}>{timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}</div>
+          <div className={"space-y-4"}>
+            <h1 className={"font-bold text-3xl max-sm:text-xl text-white"}>Launching in...</h1>
+            <div className={"text-2xl max-sm:text-sm space-x-4 max-sm:space-x-2"}>{timerComponents.length ? timerComponents : <span>Time&apos;s up!</span>}</div>
           </div>
         )}
       </div>
