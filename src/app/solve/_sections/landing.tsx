@@ -1,5 +1,5 @@
 import CountdownDisplay from "@/app/solve/_components/countdown-display";
-import { gluten, unbounded } from "@/lib/fonts";
+import { gluten, unbounded } from "@/fonts";
 import clsx from "clsx";
 import Link from "next/link";
 

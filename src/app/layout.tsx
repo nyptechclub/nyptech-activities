@@ -1,4 +1,4 @@
-import { inter } from "@/lib/fonts";
+import { inter } from "@/fonts";
 import type { Metadata } from "next";
 import "./globals.css";
 
