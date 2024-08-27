@@ -12,11 +12,13 @@ export default function AboutSection() {
       </div>
       <div className={clsx("mt-8 mb-2 font-bold text-lg text-white", unbounded.className)}>When and Where?</div>
       <div className={"text-center"}>
-        <p>Nanyang Polytechnic Block L, FYP Room</p>
-        <p>9 September to 25 October 2024 (6-Week Run + Finale on 7th week)</p>
+        <p>Nanyang Polytechnic, BLK L, Level 3, Center of IT Innovation</p>
+        <p>9 September to 21 October 2024</p>
         <p className={"mx-auto mt-2 max-w-sm text-xs"}>
-          Disclaimer: This program does not need you to commit everyday. Every week, there will be check-ins and
-          workshops prepared for you.
+          Disclaimer: This program does not need you to commit everyday. 
+          Meetings & Workshops will be held in the afternoon every Monday and Friday, 
+          attendance is NOT compulsory, but keep in mind that you are responsible 
+          for your project's success, we will simply do our best to support you.
         </p>
       </div>
     </main>
