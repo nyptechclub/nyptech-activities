@@ -12,7 +12,7 @@ export default function HowSection(props: { className?: string }) {
         It&apos;s pretty simple! You make your own idea, build it, get feedback, and iterate. We&apos;ll provide you
         with the support that you&apos;ll need.
       </div>
-      <Link className={"mt-8 btn btn-primary"} href={"https://docs.google.com/document/d/1pFx_-gdNnAXBNK2OpTUD1-JfFj5zl8JzdlS10FQRAb0/edit?usp=sharing"}>
+      <Link className={"mt-8 btn btn-primary"} href={"/solve/roadmap"}>
         View roadmap!
       </Link>
     </main>

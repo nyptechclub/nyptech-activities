@@ -1,0 +1,197 @@
+[
+  {
+    "week": 0,
+    "name": "NYP Solve Introduction Session",
+    "date": "9 September, Monday",
+    "time": "1pm to 3pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 0,
+    "name": "NYP Solve Workshop #1 - The Essentials",
+    "date": "13 September, Friday",
+    "time": "1pm to 3pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "name": "NYP Solve Workshop #2 - What Should I Be Solving?",
+    "date": "16 September, Monday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 1,
+    "name": "NYP Solve Workshop #3 - Is My Idea Good Enough?",
+    "date": "20 September, Friday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "name": "NYP Solve Workshop #4 - Drafting a Work Plan",
+    "date": "23 September, Monday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "name": "NYP Solve Progress Check #1",
+    "date": "27 September, Friday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "name": "NYP Solve Progress Check #2",
+    "date": "30 September, Monday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "name": "NYP Solve Midpoint Check-In",
+    "date": "4 October, Friday",
+    "time": "1pm to 3pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "name": "NYP Solve Progress Check #3",
+    "date": "7 October, Monday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "name": "NYP Solve Progress Check #4",
+    "date": "11 October, Friday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "name": "NYP Solve Progress Check #5",
+    "date": "14 October, Monday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "name": "NYP Solve Pitch Clinic",
+    "date": "21 October, Friday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "name": "NYP Solve Demo Day",
+    "date": "TBC",
+    "time": "TBC",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300 - 1315",
+        "activity": "Introduction",
+        "details": "Welcome Speech & Introduction to NYP Solve",
+        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+      }
+    ]
+  }
+]
