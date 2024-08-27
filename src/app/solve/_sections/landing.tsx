@@ -25,7 +25,7 @@ export default function LandingSection() {
       </div>
       <CountdownDisplay className={"mb-16 max-sm:mb-8"} targetDate={targetDate} />
       <div>
-        <Link className={"btn btn-sm btn-primary"} href={"#"}>
+        <Link className={"btn btn-sm btn-primary"} href={"https://forms.office.com/r/NKdJaJdiMw"}>
           Sign up now!
         </Link>
       </div>
