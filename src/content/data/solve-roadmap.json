@@ -7,10 +7,24 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
+        "time": "1300-1315",
         "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "details": "Welcome Speech & Introduction to NYP Solve"
+      },
+      {
+        "time": "1315-1330",
+        "activity": "Icebreakers",
+        "details": "Icebreakers b/w Founders & TES Team"
+      },
+      {
+        "time": "1330-1400",
+        "activity": "Mini Presentations",
+        "details": "Founders Share Expectations/Ideas (Barcamp style)"
+      },
+      {
+        "time": "1400 - 1445",
+        "activity": "Workshop",
+        "details": "Goal Setting & Expectations Workshop, Guest speakers: Benson Ong (SBM), Patrik Johansson (CIL), Dale Mcallister (Director IT, Connexi)"
       }
     ]
   },
@@ -22,10 +36,24 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1415",
+        "activity": "Workshop",
+        "details": "Startup Framework Workshop by Procolink. Guest speaker: Siew Wei Heng, Year 3 DAAA, founder of ProcoLink"
+      },
+      {
+        "time": "1415-1445",
+        "activity": "Planning",
+        "details": "Founders Work on their 6-Week Plan"
+      },
+      {
+        "time": "1445-1500",
+        "activity": "Networking",
+        "details": "Student Founders Networking Session"
       }
     ]
   },
@@ -37,10 +65,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -52,10 +79,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -67,10 +93,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -82,10 +107,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -97,10 +121,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -112,10 +135,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -127,10 +149,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -142,10 +163,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -157,10 +177,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -172,10 +191,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   },
@@ -187,10 +205,9 @@
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300 - 1315",
-        "activity": "Introduction",
-        "details": "Welcome Speech & Introduction to NYP Solve",
-        "venue": "BLK L, Level 3, Center of IT Innovation, Nanyang Polytechnic"
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
       }
     ]
   }
