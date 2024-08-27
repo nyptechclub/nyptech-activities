@@ -8,7 +8,8 @@ export default function HowSection() {
         2 workshops, 2 updates every week
       </div>
       <div className={"max-w-xl text-lg"}>
-        It&apos;s pretty simple! You make your own idea, build it, get feedback, and iterate.
+        It&apos;s pretty simple! You make your own idea, build it, get feedback, and iterate. We&apos;ll provide you
+        with the support that you&apos;ll need.
       </div>
     </main>
   );
