@@ -1,9 +1,9 @@
 import { unbounded } from "@/fonts";
 import clsx from "clsx";
 
-export default function AboutSection() {
+export default function AboutSection(props: { className?: string }) {
   return (
-    <main className={"px-8 h-full flex flex-col items-center justify-center text-center"}>
+    <main className={clsx("px-8 flex flex-col items-center justify-center text-center", props.className)}>
       <div className={clsx("mb-4 font-bold text-2xl text-white", unbounded.className)}>About this Event</div>
       <div className={"max-w-xl text-lg"}>
         NYP Solve is a 6-Week Incubator Program designed for aspiring student entrepreneurs. The purpose of this event

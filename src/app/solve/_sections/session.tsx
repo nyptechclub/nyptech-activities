@@ -2,9 +2,9 @@ import { unbounded } from "@/fonts";
 import clsx from "clsx";
 import Link from "next/link";
 
-export default function SessionSection() {
+export default function SessionSection(props: { className?: string }) {
   return (
-    <main className={"px-8 h-[60%] flex flex-col items-center justify-center text-center"}>
+    <main className={clsx("px-8 flex flex-col items-center justify-center text-center", props.className)}>
       <div className={clsx("mb-4 font-bold text-4xl text-white", unbounded.className)}>
         Still not convinced? Got questions?
       </div>

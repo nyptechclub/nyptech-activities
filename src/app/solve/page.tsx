@@ -11,11 +11,11 @@ export default function Page() {
       <div className={"size-full absolute z-10"}>
         <GalaxyBackground className={"size-full"} />
       </div>
-      <div className={"size-full absolute z-20 overflow-y-auto [&>section]:min-h-full"}>
+      <div className={"size-full absolute z-20 overflow-y-auto [&>section]:h-full"}>
         <LandingSection />
         <InnovateSection />
-        <HowSection />
-        <SessionSection />
+        <HowSection className={"md:h-[80%]"} />
+        <SessionSection className={"md:h-[80%]"} />
         <AboutSection />
       </div>
     </main>
