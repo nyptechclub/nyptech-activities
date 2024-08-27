@@ -14,12 +14,11 @@ export default function AboutSection() {
       <div className={"text-center"}>
         <p>Nanyang Polytechnic, BLK L, Level 3, Center of IT Innovation</p>
         <p>9 September to 21 October 2024</p>
-        <p className={"mx-auto mt-2 max-w-sm text-xs"}>
-          Disclaimer: This program does not need you to commit everyday. 
-          Meetings & Workshops will be held in the afternoon every Monday and Friday, 
-          attendance is NOT compulsory, but keep in mind that you are responsible 
-          for your project's success, we will simply do our best to support you.
-        </p>
+      </div>
+      <div className={"mx-auto mt-4 max-w-lg text-xs text-center"}>
+        <b>Disclaimer</b>: This program does not need you to commit everyday. Meetings & Workshops will be held in the
+        afternoon every Monday and Friday, attendance is <b>NOT</b> compulsory, but keep in mind that you are
+        responsible for your project&apos;s success, we will simply do our best to support you.
       </div>
     </main>
   );
