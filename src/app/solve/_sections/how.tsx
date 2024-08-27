@@ -7,7 +7,9 @@ export default function HowSection() {
       <div className={clsx("mb-4 font-bold text-4xl text-white", unbounded.className)}>
         2 workshops, 2 updates every week
       </div>
-      <div className={"max-w-xl text-lg"}>It&apos;s pretty simple!</div>
+      <div className={"max-w-xl text-lg"}>
+        It&apos;s pretty simple! You make your own idea, build it, get feedback, and iterate.
+      </div>
     </main>
   );
 }
