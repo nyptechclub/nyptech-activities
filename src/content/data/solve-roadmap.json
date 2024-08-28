@@ -24,7 +24,7 @@
       {
         "time": "1400 - 1445",
         "activity": "Workshop",
-        "details": "Goal Setting & Expectations Workshop, Guest speakers: Benson Ong (SBM), Patrik Johansson (CIL), Dale Mcallister (Director IT, Connexi)"
+        "details": "Goal Setting & Expectations Workshop. Guest speaker: Benson Ong (SBM), Patrik Johansson (CIL), Dale Mcallister (Director IT, Connexi)"
       }
     ]
   },
@@ -68,6 +68,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Workshop",
+        "details": "Empathize & Define Workshop by TES. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -82,6 +92,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Workshop",
+        "details": "Ideation/Validation Workshop by TES. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -96,6 +116,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Workshop",
+        "details": "Project Management Workshop by TES. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -110,6 +140,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup",
+        "details": "Discussions on Challenges & Next Steps. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -124,6 +164,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup",
+        "details": "Discussions on Challenges & Next Steps. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -131,13 +181,23 @@
     "week": 3,
     "name": "NYP Solve Midpoint Check-In",
     "date": "4 October, Friday",
-    "time": "1pm to 3pm",
+    "time": "1pm to 2pm",
     "venue": "FYP Room",
     "flow": [
       {
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup",
+        "details": "Gathering User Feedback Workshop. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -152,6 +212,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup/User Testing",
+        "details": "Discussions/Iteration. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -166,6 +236,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup/User Testing",
+        "details": "Discussions/Iteration. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -180,6 +260,40 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup/User Testing",
+        "details": "Discussions/Iteration. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "name": "NYP Solve Progress Check #6",
+    "date": "18 October, Friday",
+    "time": "1pm to 2pm",
+    "venue": "FYP Room",
+    "flow": [
+      {
+        "time": "1300-1315",
+        "activity": "Check-In",
+        "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Standup/User Testing",
+        "details": "Discussions/Iteration. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Planning",
+        "details": "Founders Work on Deliverables"
       }
     ]
   },
@@ -194,6 +308,16 @@
         "time": "1300-1315",
         "activity": "Check-In",
         "details": "Founders (Teams) Progress Check-In"
+      },
+      {
+        "time": "1315-1345",
+        "activity": "Workshop",
+        "details": "How to Pitch Ideas. Guest speaker: TBA"
+      },
+      {
+        "time": "1345-1400",
+        "activity": "Reflections",
+        "details": "Founders Reflect On Their Journey"
       }
     ]
   },
@@ -201,13 +325,28 @@
     "week": 6,
     "name": "NYP Solve Demo Day",
     "date": "TBC",
-    "time": "TBC",
+    "time": "1pm to 4pm",
     "venue": "FYP Room",
     "flow": [
       {
-        "time": "1300-1315",
+        "time": "1300-1330",
         "activity": "Check-In",
-        "details": "Founders (Teams) Progress Check-In"
+        "details": "Founders (Teams) Conduct Dry-Run"
+      },
+      {
+        "time": "1330-1400",
+        "activity": "Demo Day",
+        "details": "Pitching Sessions by Founders. Guest speaker: TBA"
+      },
+      {
+        "time": "1400-1445",
+        "activity": "Feedback",
+        "details": "Live Feedback & Anonymous Feedback"
+      },
+      {
+        "time": "1445-1600",
+        "activity": "Networking",
+        "details": "Networking Session b/w Founders & Guests"
       }
     ]
   }
