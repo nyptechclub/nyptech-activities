@@ -36,9 +36,9 @@ export default function CountdownDisplay(props: { className?: string; targetDate
 
   Object.keys(timeLeft).forEach((interval) => {
     timerComponents.push(
-      <span key={interval} suppressHydrationWarning>
-        <span>{timeLeft[interval as keyof typeof timeLeft]} </span>
-        <span>{interval}</span>
+      <span key={interval}>
+        <span suppressHydrationWarning>{timeLeft[interval as keyof typeof timeLeft]} </span>
+        <span suppressHydrationWarning>{interval}</span>
       </span>
     );
   });
