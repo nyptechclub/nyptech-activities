@@ -25,3 +25,24 @@ model Link {
   filename String
   createdAt DateTime @default(now())
 }
+
+model Room {
+  id        String   @id @default(cuid())
+  roomname  String   @unique
+  password  String
+  secrets   Secret[]
+  createdAt DateTime @default(now())
+}
+
+model Secret {
+  id        String   @id @default(cuid())
+  userId    String
+  username  String
+  roomname  String
+  key       String
+  value     String
+  roomId    String
+  room      Room     @relation(fields: [roomId], references: [id])
+  createdAt DateTime @default(now())
+}
+
