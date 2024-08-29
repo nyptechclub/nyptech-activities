@@ -158,6 +158,9 @@ export default function RoomPage({ params }: { params: { roomname: string } }) {
         </div>
       ) : (
         <div className='flex flex-col m-5 p-5 mx-auto gap-5'>
+          <h1>
+            Write keys in the format of key=value or key=&quot;value&quot;
+          </h1>
           <textarea
             rows={10}
             cols={50}
@@ -166,7 +169,7 @@ export default function RoomPage({ params }: { params: { roomname: string } }) {
             onChange={(e) => setEnvVars(e.target.value)}
           className='textarea'/>
           <button onClick={submitEnvVars} className='btn'>Submit Environment Variables</button>
-          <h3>Stored Environment Variables:</h3>
+          <h3>Stored Environment Variables: Click on values to edit</h3>
           <pre>
             {secrets.map((secret) => (
               <div key={secret.id}>
