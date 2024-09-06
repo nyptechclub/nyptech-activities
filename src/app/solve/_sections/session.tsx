@@ -9,7 +9,10 @@ export default function SessionSection(props: { className?: string }) {
         Still not convinced? Got questions?
       </div>
       <div className={"max-w-2xl text-lg"}>Join our virtual information sharing session on the 2nd of September.</div>
-      <Link className={"mt-8 btn btn-primary"} href={"https://calendar.app.google/jxGB8CDUFbmnpgkP6"}>
+      <Link
+        className={"mt-8 btn btn-primary"}
+        href={"https://nyp-sg.zoom.us/j/97124101912?pwd=DL93ZJhICIFw6Ry4vCCibEMbJRf1YV.1"}
+      >
         Join now!
       </Link>
     </main>
