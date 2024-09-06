@@ -21,7 +21,7 @@ const Upload = ({ link }: Props) => {
     }
     const roomname = link;
     try {
-      const response = await fetch(`/api/link/${roomname}`, {
+      const response = await fetch(`/api/room/${roomname}/link`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

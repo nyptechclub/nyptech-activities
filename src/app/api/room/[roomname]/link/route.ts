@@ -3,7 +3,7 @@ import { revalidatePath } from "next/cache";
 import { notFound } from "next/navigation";
 import { NextResponse } from "next/server";
 import { NextRequest } from "next/server";
-import { db } from "../../../../../lib/db";
+import { db } from "../../../../../../lib/db";
 export const GET = async (req: NextRequest, { params }: { params: { roomname: string } }) => {
     const { roomname } = params;
   

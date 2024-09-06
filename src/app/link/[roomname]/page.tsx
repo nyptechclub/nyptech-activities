@@ -6,7 +6,7 @@ import { db } from "../../../../lib/db";
 
 interface Props {
   params: {
-    link: string;
+    roomname: string;
   };
 }
 
@@ -37,7 +37,7 @@ const Page = async ({ params }: Props) => {
 
   return (
     <div>
-      <Upload link={params.link} />
+      <Upload link={params.roomname} />
       <div className="m-5 p-5 mx-auto">
       <h1 className="font-bold text-xl">Past Uploaded Files:</h1>
       <div>

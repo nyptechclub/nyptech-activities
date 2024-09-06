@@ -4,7 +4,7 @@ import Link from "next/link";
 
 interface Props {
   params: {
-    link: string;
+    roomname: string;
   };
 }
 
@@ -12,7 +12,7 @@ const Page = async ({ params }: Props) => {
 
   const files = await db.link.findMany({
     where: {
-      roomname: params.link,
+      roomname: params.roomname,
     },
     orderBy: {
       userId: 'asc',  // Sorts files by userId in ascending order

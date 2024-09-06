@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NotFound() {
   return (
-    <main className={"grid place-items-center"}>
+    <main className={"grid place-items-center text-base-content"}>
       <div className={"card bg-base-300"}>
         <div className={"card-body items-center text-center"}>
           <h2 className={"card-title"}>404</h2>
