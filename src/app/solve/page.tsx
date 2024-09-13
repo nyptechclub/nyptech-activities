@@ -15,7 +15,7 @@ export default function Page() {
         <LandingSection />
         <InnovateSection />
         <HowSection className={"md:h-[80%]"} />
-        <SessionSection className={"md:h-[80%]"} />
+        {/* <SessionSection className={"md:h-[80%]"} /> */}
         <AboutSection />
       </div>
     </main>

@@ -25,9 +25,9 @@ export default function LandingSection(props: { className?: string }) {
       </div>
       <CountdownDisplay className={"mb-16 max-sm:mb-8"} targetDate={targetDate} />
       <div className={"space-x-4"}>
-        <Link className={"btn btn-primary"} href={"https://forms.office.com/r/NKdJaJdiMw"}>
+        {/* <Link className={"btn btn-primary"} href={"https://forms.office.com/r/NKdJaJdiMw"}>
           Sign up now!
-        </Link>
+        </Link> */}
         <Link className={"btn btn-outline"} href={"/files/solve-guidebook.pdf"}>
           Learn more!
         </Link>
