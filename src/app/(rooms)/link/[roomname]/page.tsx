@@ -2,7 +2,7 @@ import { auth } from "@clerk/nextjs/server";
 import { notFound } from "next/navigation";
 import Upload from "./Upload";
 import Link from "next/link";
-import { db } from "../../../../lib/db";
+import { db } from "../../../../../lib/db";
 
 interface Props {
   params: {

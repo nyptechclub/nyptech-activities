@@ -3,7 +3,7 @@
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { toast } from "sonner";
-import { UploadButton } from "../../../../lib/uploadthing";
+import { UploadButton } from "../../../../../lib/uploadthing";
 
 interface Props {
   link: string;

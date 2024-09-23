@@ -26,6 +26,7 @@ export default function Layout(props: { children: React.ReactNode }) {
           />
         </head>
         <body className={`${inter.className} bg-base-100 text-base-content`}>
+
           {props.children}
         </body>
       </html>

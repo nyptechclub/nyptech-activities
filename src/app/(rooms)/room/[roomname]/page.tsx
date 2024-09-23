@@ -11,6 +11,9 @@ const RoomPage = ({ params }: { params: { roomname: string } }) => {
     }
   return (
     <div className="card bg-base-100 w-96 shadow-xl flex items-center justify-center mx-auto m-5 p-5">
+    <p>
+      Sign in to show your username
+    </p>
     <FeedbackForm roomname={params.roomname} userId={userId}/>
     <RoomFeedback roomname={params.roomname} />
       
