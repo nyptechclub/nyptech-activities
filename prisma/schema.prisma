@@ -45,3 +45,16 @@ model Secret {
   room      Room     @relation(fields: [roomId], references: [id])
   createdAt DateTime @default(now())
 }
+
+model docs {
+  room      String   @id
+  documents document[]
+}
+
+model document {
+  id          String   @id @default(cuid())
+  docsId      String
+  document    docs   @relation(fields: [docsId], references: [room])
+  roomname    String
+  roomcontent String
+}
